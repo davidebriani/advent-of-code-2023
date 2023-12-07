@@ -3,27 +3,6 @@
 version = 3
 
 [[package]]
-name = "bench"
-version = "0.1.0"
-dependencies = [
- "day01",
- "day02",
- "day03",
- "took",
-]
-
-[[package]]
-name = "day01"
-version = "0.1.0"
-
-[[package]]
-name = "day02"
-version = "0.1.0"
-dependencies = [
- "itertools",
-]
-
-[[package]]
 name = "day03"
 version = "0.1.0"
 dependencies = [
@@ -44,9 +23,3 @@ checksum = "25db6b064527c5d482d0423354fcd07a89a2dfe07b67892e62411946db7f07b0"
 dependencies = [
  "either",
 ]
-
-[[package]]
-name = "took"
-version = "0.1.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "af1ea65cb083be6f0b13ba9a26eec5eb563e55198e318cbb0f525d593fbd349e"

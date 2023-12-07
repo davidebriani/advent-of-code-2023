@@ -33,5 +33,7 @@ fn jobs() -> &'static [(fn() -> u32, &'static str)] {
         (day01::part2, "day01_part2"),
         (day02::part1, "day02_part1"),
         (day02::part2, "day02_part2"),
+        (day03::part1, "day03_part1"),
+        (day03::part2, "day03_part2"),
     ]
 }
